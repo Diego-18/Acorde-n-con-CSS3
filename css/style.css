@@ -1,0 +1,95 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.encabezado{
+    background: #03a9f4;
+    box-shadow: 1px 0px 1px 0px rgba(0,0,0,0.8);
+    top: 0px;
+    color: #fff;
+    font-size: 16px;
+    height: 5%;
+    padding-top: 1%;
+    position: absolute;
+    text-align: center;
+    text-shadow:1px 1px 0px rgba(0,0,0,0.8);
+    width:100%;
+}
+
+.footer{
+    background: #03a9f4;
+    bottom: 0px;
+    color: #fff;
+    font-size: 16px;
+    height: 10%;
+    text-align: center;
+    text-shadow:1px 1px 0px rgba(0,0,0,0.8);
+    position: fixed;
+    width:100%;
+}
+
+.menu{
+    background:#c1c1c1;
+    box-shadow: 1px 0px 1px 0px rgba(0,0,0,0.8);
+    font-size:14px;
+    list-style:none;
+    margin-top: 10%;
+    padding:0;
+    width: 20%;
+}
+
+.menu li a{
+    background: #03a9f4;
+    border-bottom: 1px solid rgba(0,0,0, 0.2);
+    border-top: 1px solid rgba(255,255,255, 0.2);
+    color:#FFF;
+    display: block;
+    filter: dropshadow(color=#000, offx=1, offy=0);
+    padding:10px;
+    padding-left:20px;
+    text-decoration:none;
+    text-shadow: 1px 0px 1px rgba(0,0,0,0.2);
+}
+
+.menu li ul li a{
+    color:#47689d;
+    font-size:14px;
+    text-shadow: 1px 0px 1px rgba(255,255,255,0.5);
+}
+
+.menu li a:hover{
+    background:#4a6ba2;
+    -moz-transition: background 0.3s ease-in;
+    -webkit-transition: background 0.3s ease-in;
+    -o-transition: background 0.3s ease-in;
+}
+
+.menu ul{
+    height:0;
+    list-style:none;
+    margin:0;
+    overflow: hidden;
+    padding:0;
+    transition:1s;
+    -moz-transition:1s;
+    -webkit-transition:1s;
+}
+
+.menu li:hover ul{
+    height:120px;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+
+.menu ul li a{
+    background:#fafafa;
+}
+
+.menu ul li a:hover {
+    background: none repeat scroll 0 0 #ccc;
+    color: #fff;
+    -moz-transition: color 0.4s ease;
+    -webkit-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+}
